@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4165ED4E0A22DD08E7B664C4 /* Pods_social_bocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767EFE8740534D1537ED84F2 /* Pods_social_bocial.framework */; };
 		F879DCBF1E20AAD400C1BAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F879DCBE1E20AAD300C1BAAF /* AppDelegate.swift */; };
-		F879DCC11E20AAD400C1BAAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F879DCC01E20AAD400C1BAAF /* ViewController.swift */; };
+		F879DCC11E20AAD400C1BAAF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F879DCC01E20AAD400C1BAAF /* SignInVC.swift */; };
 		F879DCC41E20AAD400C1BAAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F879DCC21E20AAD400C1BAAF /* Main.storyboard */; };
 		F879DCC61E20AAD400C1BAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F879DCC51E20AAD400C1BAAF /* Assets.xcassets */; };
 		F879DCC91E20AAD400C1BAAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F879DCC71E20AAD400C1BAAF /* LaunchScreen.storyboard */; };
+		F879DCD11E20AB9000C1BAAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F879DCD01E20AB9000C1BAAF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		176601D34B15060A6DA96BF6 /* Pods-social-bocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-social-bocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-social-bocial/Pods-social-bocial.release.xcconfig"; sourceTree = "<group>"; };
+		60AACF83BD775D5E7E337653 /* Pods-social-bocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-social-bocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-social-bocial/Pods-social-bocial.debug.xcconfig"; sourceTree = "<group>"; };
+		767EFE8740534D1537ED84F2 /* Pods_social_bocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_social_bocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F879DCBB1E20AAD300C1BAAF /* social-bocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "social-bocial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F879DCBE1E20AAD300C1BAAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F879DCC01E20AAD400C1BAAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F879DCC01E20AAD400C1BAAF /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		F879DCC31E20AAD400C1BAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F879DCC51E20AAD400C1BAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F879DCC81E20AAD400C1BAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F879DCCA1E20AAD400C1BAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F879DCD01E20AB9000C1BAAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4165ED4E0A22DD08E7B664C4 /* Pods_social_bocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DA37CADEF1E4A9E8E28882C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60AACF83BD775D5E7E337653 /* Pods-social-bocial.debug.xcconfig */,
+				176601D34B15060A6DA96BF6 /* Pods-social-bocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E6E355663F90D2D8358976B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				767EFE8740534D1537ED84F2 /* Pods_social_bocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F879DCB21E20AAD200C1BAAF = {
 			isa = PBXGroup;
 			children = (
 				F879DCBD1E20AAD300C1BAAF /* social-bocial */,
 				F879DCBC1E20AAD300C1BAAF /* Products */,
+				5DA37CADEF1E4A9E8E28882C /* Pods */,
+				8E6E355663F90D2D8358976B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,39 @@
 		F879DCBD1E20AAD300C1BAAF /* social-bocial */ = {
 			isa = PBXGroup;
 			children = (
+				F879DCD41E2355B600C1BAAF /* Controller */,
+				F879DCD31E2355B100C1BAAF /* View */,
+				F879DCD21E2355A900C1BAAF /* Model */,
+				F879DCD01E20AB9000C1BAAF /* GoogleService-Info.plist */,
 				F879DCBE1E20AAD300C1BAAF /* AppDelegate.swift */,
-				F879DCC01E20AAD400C1BAAF /* ViewController.swift */,
 				F879DCC21E20AAD400C1BAAF /* Main.storyboard */,
 				F879DCC51E20AAD400C1BAAF /* Assets.xcassets */,
 				F879DCC71E20AAD400C1BAAF /* LaunchScreen.storyboard */,
 				F879DCCA1E20AAD400C1BAAF /* Info.plist */,
 			);
 			path = "social-bocial";
+			sourceTree = "<group>";
+		};
+		F879DCD21E2355A900C1BAAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F879DCD31E2355B100C1BAAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F879DCD41E2355B600C1BAAF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F879DCC01E20AAD400C1BAAF /* SignInVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F879DCCD1E20AAD400C1BAAF /* Build configuration list for PBXNativeTarget "social-bocial" */;
 			buildPhases = (
+				EB572390E89CB0D8B3B59F1F /* [CP] Check Pods Manifest.lock */,
 				F879DCB71E20AAD300C1BAAF /* Sources */,
 				F879DCB81E20AAD300C1BAAF /* Frameworks */,
 				F879DCB91E20AAD300C1BAAF /* Resources */,
+				D88C59A6C19DDF0C7CD12C5C /* [CP] Embed Pods Frameworks */,
+				6E73D45979066660310CC604 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +150,7 @@
 				TargetAttributes = {
 					F879DCBA1E20AAD300C1BAAF = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 74WEXLH2K4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,17 +181,66 @@
 				F879DCC91E20AAD400C1BAAF /* LaunchScreen.storyboard in Resources */,
 				F879DCC61E20AAD400C1BAAF /* Assets.xcassets in Resources */,
 				F879DCC41E20AAD400C1BAAF /* Main.storyboard in Resources */,
+				F879DCD11E20AB9000C1BAAF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E73D45979066660310CC604 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-social-bocial/Pods-social-bocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D88C59A6C19DDF0C7CD12C5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-social-bocial/Pods-social-bocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB572390E89CB0D8B3B59F1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F879DCB71E20AAD300C1BAAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F879DCC11E20AAD400C1BAAF /* ViewController.swift in Sources */,
+				F879DCC11E20AAD400C1BAAF /* SignInVC.swift in Sources */,
 				F879DCBF1E20AAD400C1BAAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +362,10 @@
 		};
 		F879DCCE1E20AAD400C1BAAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AACF83BD775D5E7E337653 /* Pods-social-bocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74WEXLH2K4;
 				INFOPLIST_FILE = "social-bocial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.itgosolutions.social-bocial";
@@ -270,8 +376,10 @@
 		};
 		F879DCCF1E20AAD400C1BAAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176601D34B15060A6DA96BF6 /* Pods-social-bocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74WEXLH2K4;
 				INFOPLIST_FILE = "social-bocial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.itgosolutions.social-bocial";
@@ -299,6 +407,7 @@
 				F879DCCF1E20AAD400C1BAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

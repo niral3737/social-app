@@ -1,0 +1,6 @@
+framework module Pods_social_bocial {
+  umbrella header "Pods-social-bocial-umbrella.h"
+
+  export *
+  module * { export * }
+}
